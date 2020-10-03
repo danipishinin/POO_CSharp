@@ -1,0 +1,241 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{46B3197C-F353-4770-AC81-D5663F422669}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>ProgOrientadaObjetosCSharp</RootNamespace>
+    <AssemblyName>ProgOrientadaObjetosCSharp</AssemblyName>
+    <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="01_Aula\01_Animal.cs" />
+    <Compile Include="01_Aula\02_Usuario.cs" />
+    <Compile Include="01_Aula\04_Financeiro.cs" />
+    <Compile Include="01_Aula\05_Livro.cs" />
+    <Compile Include="01_Aula\06_Calculadora.cs" />
+    <Compile Include="01_Aula\07_Carpete.cs" />
+    <Compile Include="01_Aula\08_Conta.cs" />
+    <Compile Include="01_Aula\09_ContaEspecial.cs" />
+    <Compile Include="01_Aula\10_Funcionario.cs" />
+    <Compile Include="01_Aula\12_Tablet.cs" />
+    <Compile Include="01_Aula\13_Artigo.cs" />
+    <Compile Include="01_Aula\14_Autor.cs" />
+    <Compile Include="01_Aula\15_Vendedor.cs" />
+    <Compile Include="01_Aula\16_Cliente.cs" />
+    <Compile Include="01_Aula\17_Governador.cs" />
+    <Compile Include="01_Aula\44_ClasseA_B_C_D.cs" />
+    <Compile Include="01_Aula\42_SealedProgramador.cs" />
+    <Compile Include="01_Aula\41_Namespace.cs" />
+    <Compile Include="01_Aula\18_Estado.cs" />
+    <Compile Include="01_Aula\19_Montadora.cs" />
+    <Compile Include="01_Aula\20_Veiculo.cs" />
+    <Compile Include="01_Aula\21_RegistroCivil.cs" />
+    <Compile Include="01_Aula\22_Professor.cs" />
+    <Compile Include="01_Aula\23_Consumidor.cs" />
+    <Compile Include="01_Aula\24_Correios.cs" />
+    <Compile Include="01_Aula\25_Orcamento.cs" />
+    <Compile Include="01_Aula\45_Agenda.cs" />
+    <Compile Include="02_Exercicico\20_Emprestimo.cs" />
+    <Compile Include="01_Aula\27_Reuniao.cs" />
+    <Compile Include="01_Aula\28_VendaTopo.cs" />
+    <Compile Include="01_Aula\29_VendaItem.cs" />
+    <Compile Include="01_Aula\30_Estudante.cs" />
+    <Compile Include="01_Aula\31_Matricula.cs" />
+    <Compile Include="01_Aula\32_Disciplina.cs" />
+    <Compile Include="01_Aula\33_Pessoa.cs" />
+    <Compile Include="01_Aula\34_Metalurgico.cs" />
+    <Compile Include="01_Aula\35_RepresentanteComercial.cs" />
+    <Compile Include="01_Aula\36_IManutencao.cs" />
+    <Compile Include="01_Aula\37_IFluxoCaixa.cs" />
+    <Compile Include="01_Aula\38_ITributacao.cs" />
+    <Compile Include="01_Aula\39_Franquia.cs" />
+    <Compile Include="01_Aula\43_ImpostoDevido.cs" />
+    <Compile Include="02_Exercicico\09_VeiculoUsado.cs" />
+    <Compile Include="02_Exercicico\10_CaminhaoUsado.cs" />
+    <Compile Include="02_Exercicico\11_Posicao.cs" />
+    <Compile Include="02_Exercicico\12_Jogador.cs" />
+    <Compile Include="02_Exercicico\13_Aeronave.cs" />
+    <Compile Include="02_Exercicico\14_VooTrecho.cs" />
+    <Compile Include="02_Exercicico\01_Bebe.cs" />
+    <Compile Include="02_Exercicico\07_Colaborador.cs" />
+    <Compile Include="02_Exercicico\08_Gerente.cs" />
+    <Compile Include="02_Exercicico\16_Cartao.cs" />
+    <Compile Include="02_Exercicico\15_Paciente.cs" />
+    <Compile Include="02_Exercicico\19_Empresa.cs" />
+    <Compile Include="02_Exercicico\21_Carro.cs" />
+    <Compile Include="02_Exercicico\22_Motorista.cs" />
+    <Compile Include="02_Exercicico\23_Peca.cs" />
+    <Compile Include="02_Exercicico\24_VeiculoFab.cs" />
+    <Compile Include="02_Exercicico\25_ProdutoFab.cs" />
+    <Compile Include="01_Aula\03_Criptografia.cs" />
+    <Compile Include="02_Exercicico\06_RepresComercial.cs" />
+    <Compile Include="02_Exercicico\02_Mae.cs" />
+    <Compile Include="02_Exercicico\03_Medico.cs" />
+    <Compile Include="02_Exercicico\04_Aluno.cs" />
+    <Compile Include="02_Exercicico\05_Produto.cs" />
+    <Compile Include="01_Aula\11_Computador.cs" />
+    <Compile Include="02_Exercicico\18_Imovel.cs" />
+    <Compile Include="02_Exercicico\17_Proprietario.cs" />
+    <Compile Include="frm01_IntroducaoCSharp.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frm01_IntroducaoCSharp.Designer.cs">
+      <DependentUpon>frm01_IntroducaoCSharp.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frm02_IntermediarioCSharp.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frm02_IntermediarioCSharp.Designer.cs">
+      <DependentUpon>frm02_IntermediarioCSharp.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frm03_AbstracaoEncapsulamento.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frm03_AbstracaoEncapsulamento.Designer.cs">
+      <DependentUpon>frm03_AbstracaoEncapsulamento.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frm04_Metodos.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frm04_Metodos.Designer.cs">
+      <DependentUpon>frm04_Metodos.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frm05_Heranca.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frm05_Heranca.Designer.cs">
+      <DependentUpon>frm05_Heranca.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frm06_AssociacaoUnidirecional.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frm06_AssociacaoUnidirecional.Designer.cs">
+      <DependentUpon>frm06_AssociacaoUnidirecional.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frm08_DepenAgregCompAssoc.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frm08_DepenAgregCompAssoc.Designer.cs">
+      <DependentUpon>frm08_DepenAgregCompAssoc.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frm09_ClassesAbstratasInterfaces.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frm09_ClassesAbstratasInterfaces.Designer.cs">
+      <DependentUpon>frm09_ClassesAbstratasInterfaces.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frm07_AssociacaoBidirecional.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frm07_AssociacaoBidirecional.Designer.cs">
+      <DependentUpon>frm07_AssociacaoBidirecional.cs</DependentUpon>
+    </Compile>
+    <Compile Include="01_Aula\40_Modulo.cs" />
+    <Compile Include="frm10_InterfaceCampos.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frm10_InterfaceCampos.Designer.cs">
+      <DependentUpon>frm10_InterfaceCampos.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frm11_Agenda.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frm11_Agenda.Designer.cs">
+      <DependentUpon>frm11_Agenda.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="frm01_IntroducaoCSharp.resx">
+      <DependentUpon>frm01_IntroducaoCSharp.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frm02_IntermediarioCSharp.resx">
+      <DependentUpon>frm02_IntermediarioCSharp.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frm03_AbstracaoEncapsulamento.resx">
+      <DependentUpon>frm03_AbstracaoEncapsulamento.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frm04_Metodos.resx">
+      <DependentUpon>frm04_Metodos.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frm05_Heranca.resx">
+      <DependentUpon>frm05_Heranca.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frm06_AssociacaoUnidirecional.resx">
+      <DependentUpon>frm06_AssociacaoUnidirecional.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frm08_DepenAgregCompAssoc.resx">
+      <DependentUpon>frm08_DepenAgregCompAssoc.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frm09_ClassesAbstratasInterfaces.resx">
+      <DependentUpon>frm09_ClassesAbstratasInterfaces.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frm07_AssociacaoBidirecional.resx">
+      <DependentUpon>frm07_AssociacaoBidirecional.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frm10_InterfaceCampos.resx">
+      <DependentUpon>frm10_InterfaceCampos.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frm11_Agenda.resx">
+      <DependentUpon>frm11_Agenda.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>
