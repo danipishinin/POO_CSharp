@@ -1,4 +1,4 @@
-# 💜 Conceitos de POO
+# 💜 POO
 
 Fundamentos de Programação Orientada a Objetos através da linguagem C#
 
